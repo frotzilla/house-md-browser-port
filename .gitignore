@@ -1,0 +1,20 @@
+# The game itself is not part of this repo. Bring your own copy.
+HouseMD-Setup.exe
+autorun.inf
+house.ico
+cover.jpg
+Warranty-and-License.txt
+
+# Everything build.sh extracts or downloads into the site folder.
+# Only the hand-written page and shim are tracked.
+web/*
+!web/index.html
+!web/shim.js
+
+# Local tools and scratch output.
+tools/ffdec/
+analysis/
+build-tmp/
+
+.DS_Store
+__pycache__/
